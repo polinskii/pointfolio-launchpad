@@ -18,6 +18,20 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-coral-gold': 'var(--gradient-coral-gold)',
+				'gradient-primary-teal': 'var(--gradient-primary-teal)',
+				'gradient-organic': 'var(--gradient-organic)',
+			},
+			boxShadow: {
+				'organic': 'var(--shadow-organic)',
+				'coral': 'var(--shadow-coral)',
+				'golden': 'var(--shadow-golden)',
+			},
+			transitionTimingFunction: {
+				'organic': 'var(--transition-organic)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -26,11 +40,20 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				coral: {
+					DEFAULT: 'hsl(var(--coral))',
+					foreground: 'hsl(var(--coral-foreground))'
+				},
+				golden: {
+					DEFAULT: 'hsl(var(--golden))',
+					foreground: 'hsl(var(--golden-foreground))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
