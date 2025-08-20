@@ -17,24 +17,24 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 20% 15%;
 
-    /* Pointfolio Brand Colors */
-    --primary: 166 76% 37%;
+    /* Pointfolio Brand Colors - Organic Design */
+    --primary: 172 85% 35%; /* Deep teal from design */
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 166 100% 50%;
+    --primary-glow: 172 100% 50%; /* Bright teal */
 
-    --secondary: 27 87% 67%;
+    --secondary: 217 19% 27%; /* Dark navy from design */
     --secondary-foreground: 0 0% 100%;
 
-    --coral: 14 100% 57%;
+    --coral: 14 91% 60%; /* Coral orange from design */
     --coral-foreground: 0 0% 100%;
 
-    --golden: 45 93% 47%;
-    --golden-foreground: 0 0% 100%;
+    --golden: 43 96% 56%; /* Golden yellow from design */
+    --golden-foreground: 217 19% 27%;
 
     --muted: 210 40% 98%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 166 76% 37%;
+    --accent: 172 85% 35%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -42,13 +42,14 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 166 76% 37%;
+    --ring: 172 85% 35%;
 
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--coral)));
+    /* Gradients - Organic Design */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--coral)), hsl(var(--golden)));
     --gradient-coral-gold: linear-gradient(135deg, hsl(var(--coral)), hsl(var(--golden)));
     --gradient-primary-teal: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-organic: linear-gradient(135deg, hsl(var(--primary) / 0.9), hsl(var(--coral) / 0.8), hsl(var(--golden) / 0.9));
+    --gradient-organic: linear-gradient(135deg, hsl(var(--primary) / 0.95), hsl(var(--coral) / 0.85), hsl(var(--golden) / 0.75));
+    --gradient-organic-overlay: linear-gradient(135deg, hsl(var(--primary) / 0.3), hsl(var(--coral) / 0.2), hsl(var(--golden) / 0.1));
 
     /* Shadows */
     --shadow-organic: 0 20px 40px -10px hsl(var(--primary) / 0.3);
@@ -87,23 +88,23 @@ All colors MUST be HSL.
     --popover: 210 20% 10%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 166 100% 50%;
+    --primary: 172 100% 50%; /* Bright teal for dark theme */
     --primary-foreground: 210 20% 8%;
-    --primary-glow: 166 100% 60%;
+    --primary-glow: 172 100% 60%;
 
-    --secondary: 27 87% 67%;
-    --secondary-foreground: 210 20% 8%;
+    --secondary: 217 19% 27%; /* Keep dark navy */
+    --secondary-foreground: 210 40% 98%;
 
-    --coral: 14 100% 57%;
+    --coral: 14 91% 60%; /* Coral orange */
     --coral-foreground: 210 20% 8%;
 
-    --golden: 45 93% 47%;
+    --golden: 43 96% 56%; /* Golden yellow */
     --golden-foreground: 210 20% 8%;
 
     --muted: 210 20% 15%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 166 100% 50%;
+    --accent: 172 100% 50%;
     --accent-foreground: 210 20% 8%;
 
     --destructive: 0 84.2% 60.2%;
@@ -111,7 +112,7 @@ All colors MUST be HSL.
 
     --border: 210 20% 20%;
     --input: 210 20% 20%;
-    --ring: 166 100% 50%;
+    --ring: 172 100% 50%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
