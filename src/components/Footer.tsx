@@ -16,7 +16,7 @@ const Footer = () => {
             <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" onClick={() => window.location.href = 'https://app.pointfol.io/login'}>
               Login / Rejestracja
             </Button>
-            <Button variant="secondary" size="lg" onClick={() => window.location.href = 'https://app.pointfol.io/business-welcome'}>
+            <Button variant="secondary" size="lg" onClick={() => window.location.href = 'https://app.pointfol.io/business_welcome'}>
               Rejestracja dla biznesu
             </Button>
           </div>
@@ -32,7 +32,7 @@ const Footer = () => {
             
             <div className="text-center md:text-right">
               <p className="text-white/70 text-sm">
-                © 2024 Pointfolio. Wszystkie prawa zastrzeżone.
+                © 2024 Pointfol.io. Wszystkie prawa zastrzeżone.
               </p>
             </div>
           </div>
