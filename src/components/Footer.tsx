@@ -13,10 +13,10 @@ const Footer = () => {
             Zacznij zbierać punkty już dziś lub skonfiguruj program lojalnościowy dla swojego biznesu
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm">
+            <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm" onClick={() => window.location.href = 'https://app.pointfol.io/login'}>
               Login / Rejestracja
             </Button>
-            <Button variant="secondary" size="lg">
+            <Button variant="secondary" size="lg" onClick={() => window.location.href = 'https://app.pointfol.io/business-welcome'}>
               Rejestracja dla biznesu
             </Button>
           </div>
