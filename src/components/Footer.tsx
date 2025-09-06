@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-4 md:mb-0">
               <h3 className="text-2xl font-bold text-white mb-2">pointfol.io</h3>
-              <p className="text-white/70">Karta lojalnościowa zawsze w telefonie</p>
+              <p className="text-white/70">Karta lojalnościowa zawsze pod ręką</p>
             </div>
             
             <div className="text-center md:text-right">
