@@ -35,10 +35,10 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Button variant="hero" size="lg" className="text-lg px-10 py-6 shadow-2xl">
+          <Button variant="hero" size="lg" className="text-lg px-10 py-6 shadow-2xl" onClick={() => window.location.href = 'https://app.pointfol.io/login'}>
             Zacznij zbierać punkty
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-10 py-6 bg-white/15 border-white/40 text-white hover:bg-white/25 backdrop-blur-md shadow-xl">
+          <Button variant="outline" size="lg" className="text-lg px-10 py-6 bg-white/15 border-white/40 text-white hover:bg-white/25 backdrop-blur-md shadow-xl" onClick={() => window.location.href = 'https://app.pointfol.io/business-welcome'}>
             Dla biznesu
           </Button>
         </div>
