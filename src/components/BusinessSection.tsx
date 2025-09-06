@@ -66,7 +66,7 @@ const BusinessSection = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Button variant="coral" size="lg" className="text-lg px-8 py-6 mb-4" onClick={() => window.location.href = 'https://app.pointfol.io/business-welcome'}>
+          <Button variant="coral" size="lg" className="text-lg px-8 py-6 mb-4" onClick={() => window.location.href = 'https://app.pointfol.io/business_welcome'}>
             Rejestracja dla biznesu
           </Button>
           <p className="text-sm text-muted-foreground">
