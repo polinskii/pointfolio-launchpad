@@ -31,7 +31,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-white/95 mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-lg">
-          Karta z pieczątkami zawsze w Twoim telefonie, bez apki!
+          Karta z pieczątkami zawsze pod ręką, bez apki!
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
